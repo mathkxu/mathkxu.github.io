@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here fer. */ 
+
+
+/*************************************
+ The box that contain BibTeX code
+ *************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div>
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap" style="width:800px;padding-right:100px">
+      {{ content }}
+
+
+	    
+<!-------------------------------------------------------------Published Papers Here ------------------------------------------------------------>		    
+<h3 style="margin-bottom:0px;padding-top:20px;">Published / Accepted</h3>
+<p style="margin-top:6px;"><sup>*</sup> Corresponding author.</p>
+
+<ol style="padding-left:0px;">
+
+  <li>
+    <p>
+      <b>[RL+VRP]</b> <b>Kuan Xu</b>, Zhiguang Cao, Chenlong Zheng, and Lindong Liu<sup>*</sup>.<br>
+      <b>Learning to Search for Vehicle Routing with Multiple Time Windows.</b><br>
+      Computers &amp; Industrial Engineering, 2025.
+      <a href="https://doi.org/10.1016/j.cie.2025.111760" target="_blank">
+        <font color="#8F959A"><b>[Paper]</b></font>
+      </a>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <b>[RL+VRP]</b> <b>Kuan Xu</b>, Li Shen, and Lindong Liu<sup>*</sup>.<br>
+      <b>Enhancing Column Generation by Reinforcement Learning-Based Hyper-Heuristic for Vehicle Routing and Scheduling Problems.</b><br>
+      Computers &amp; Industrial Engineering, 2025.
+      <a href="https://doi.org/10.1016/j.cie.2025.111138" target="_blank">
+        <font color="#8F959A"><b>[Paper]</b></font>
+      </a>
+    </p>
+  </li>
+
+</ol>
+
+
+<!-------------------------------------------------------------Revision Papers Here ------------------------------------------------------------>		    
+<h3 style="margin-bottom:0px;padding-top:20px;">Under Review / Revision</h3>
+
+<ol style="padding-left:0px;">
+
+  <li>
+    <p>
+      <b>[RL+JSP]</b> <b>Kuan Xu</b>, Yaotai Zhang, Lindong Liu, Zhiguang Cao, and Cong Zhang<sup>*</sup>.<br>
+      <b>Learning to Search for Flexible Job-shop Scheduling Problem with Queue-Time Constraints in Semiconductor Manufacturing.</b><br>
+      IEEE Transactions on Engineering Management, Under Review.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <b>[Bin Packing]</b> Jianming Wang, <b>Kuan Xu</b>, and Zhouwang Yang<sup>*</sup>.<br>
+      <b>Large neighborhood search for the two-dimensional irregular bin packing problem.</b><br>
+      European Journal of Operational Research (EJOR), Major Revision.
+    </p>
+  </li>
+
+  <!--
+  <li>
+    <p>
+      <b>[Layout Opt]</b> Yaotai Zhang, Lan Lu, Shuyu Li, and <b>Kuan Xu</b><sup>*</sup>.<br>
+      <b>Multi-objective Layout Optimization for Alignment Marks on Masks.</b><br>
+      Chinese Journal of Management Science, 2nd Round Revision.
+    </p>
+  </li>
+  -->
+
+</ol>
+
+
+<!-------------------------------------------------------------Working Papers Here ------------------------------------------------------------>		    
+<h3 style="margin-bottom:0px;padding-top:20px;">Work in Progress</h3>
+
+<ol style="padding-left:0px;">
+
+  <li>
+    <p>
+      <b>[LLM + JSP]</b> with Zhiguang Cao.<br>
+      <b>LLM-Driven Discovery of Heuristic Operators for Job Shop Scheduling Problems.</b><br>
+      <!-- Targeting ICML 2026. -->
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <b>[GNN + Game]</b> with Lindong Liu.<br>
+      <b>Machine Learning-Based Row Generation for Cost Allocation Problem on Graphs.</b><br>
+      <!-- Targeting INFORMS Journal on Computing. -->
+    </p>
+  </li>
+
+</ol>
+  
+
+	    
+    
+
+</body>
+</html>
