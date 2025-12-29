@@ -32,7 +32,7 @@ optimization.
   <li>
     <b>National University of Singapore (NUS)</b>, Singapore<br>
     Visiting Ph.D. Student in Industrial Systems Engineering &amp; Management (Feb. 2025 – Present)<br>
-    Supported by China Scholarship Council (CSC).
+    Supported by China Scholarship Council (CSC).<br>
     Advisor: <a href="https://cde.nus.edu.sg/isem/staff/ye-zhisheng/" target="_blank">Zhisheng Ye</a>.
   </li>
   <br>
