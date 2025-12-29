@@ -29,12 +29,13 @@ optimization.
 <h3 style="margin-bottom:10px;padding-top:20px;">Education</h3>
 
 <ul style="margin-left:0px;">
-  <!-- <li>
+  <li>
     <b>National University of Singapore (NUS)</b>, Singapore<br>
     Visiting Ph.D. Student in Industrial Systems Engineering &amp; Management (Feb. 2025 – Present)<br>
     Supported by China Scholarship Council (CSC).
+    Advisor: <a href="https://cde.nus.edu.sg/isem/staff/ye-zhisheng/" target="_blank">Zhisheng Ye</a>.
   </li>
-  <br> -->
+  <br>
   <li>
     <b>University of Science and Technology of China (USTC)</b>, Hefei<br>
     Ph.D. in Management Science and Engineering (Sept. 2023 – Present)<br>
