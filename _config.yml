@@ -25,7 +25,7 @@ owner:
  # github: zhiguangcaosg
 # Analytics and webmaster tools stuff goes here
 #google_analytics: UA-52736040-1
-#google_verify:
+google_verify: nrzSGAck3TvSmI0PvhS93RIm9jm3AV0NNZ39DxkRLPw
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
