@@ -51,6 +51,7 @@ optimization.
   <li>
     <b>South China University of Technology (SCUT)</b>, Guangzhou<br>
     B.S. in Mathematics (Sept. 2017 – June 2021)<br>
+    <!-- Thesis: SVM Feature Selection Based on Zero-Mode Optimization<br> -->
     Advisor: <a href="https://www2.scut.edu.cn/math/2017/1227/c14582a242164/page.htm" target="_blank">Shaohua Pan</a>.
   </li>
 </ul>
